@@ -18,56 +18,10 @@ h1,h2,h3,h4,h5,h6{
 
 /*////////////////////////////////////////////////////////////////////////////////////////////*/
 
-/*Header*/
-.header{
-  width: 100%;
-  height: 100px;
-  /*position: absolute;*/
-  background-color: #282c34;
-  z-index: 1000;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.header_inner{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-/*Navigation header*/
-.navigation{
-  width: 60%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.navigation_link{
-  background-color: #282c34;
-  color: aqua;
-  font-size: 18px;
-  letter-spacing: 0.5px;
-  border: none;
-  text-decoration: none;
-  vertical-align: center;
-  align-items: center;
-}
-
-.navigation_link:hover{
-  color: cornflowerblue;
-}
-
-
 /*Intro*/
 .intro{
-  max-width: 100%;
-  height: auto;
-  padding-top: 50px;
-  /*background-image: url("../images/InnerBg.jpg");*/
-  /*background-repeat: no-repeat;*/
-  /*background-size: cover;*/
+  width: 100%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,6 +29,8 @@ h1,h2,h3,h4,h5,h6{
 
 .intro_inner{
   width: 100%;
+  height: 80vh;
+  background-size: contain;
   text-align: center;
 }
 
@@ -112,18 +68,15 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .screen1_container{
-  width: 882px;
-  height: 494px;
-  margin: 0 auto;
-  bottom: 0;
-  box-shadow: 0px 0px 40px rgb(85, 132, 255);
+  width: 60%;
+  height: 60%;
 }
 
 /*Second slide*/
 /*Image*/
 .second_slide{
   width: 100%;
-  height: 630px;
+  height: 400px;
   top: 0;
   background-color: white;
 }
@@ -153,23 +106,23 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-.first_line{
-  border: none;
-  margin-top: 37px;
-  background-color: #dadee7;
-  color: #dadee7;
-  height: 1px;
-  width: 220px;
-}
+/*.first_line{*/
+/*  border: none;*/
+/*  margin-top: 37px;*/
+/*  background-color: #dadee7;*/
+/*  color: #dadee7;*/
+/*  height: 1px;*/
+/*  width: 220px;*/
+/*}*/
 
-.second_line{
-  border: none;
-  margin-top: 37px;
-  background-color: #dadee7;
-  color: #dadee7;
-  height: 1px;
-  width: 220px;
-}
+/*.second_line{*/
+/*  border: none;*/
+/*  margin-top: 37px;*/
+/*  background-color: #dadee7;*/
+/*  color: #dadee7;*/
+/*  height: 1px;*/
+/*  width: 220px;*/
+/*}*/
 
 /*Title*/
 .second_title{
@@ -185,8 +138,6 @@ h1,h2,h3,h4,h5,h6{
   display: flex;
   justify-content: space-around;
 }
-
-
 
 /*Second buttons*/
 .second_buttons_container{
