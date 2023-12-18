@@ -1,11 +1,5 @@
 import React, {useState, useEffect} from "react";
 import "./homepage.css"
-// import image1 from "../../pictures/homepage/first.jpg"
-// import image2 from "../../pictures/homepage/second.jpg"
-// import image3 from "../../pictures/homepage/third.jpg"
-// import image4 from "../../pictures/homepage/fourth.jpg"
-// import image5 from "../../pictures/homepage/fifth.jpg"
-// import image6 from "../../pictures/homepage/sixth.jpg"
 import {images, titles, times} from "../../dataArrays/data"
 
 function Homepage(){

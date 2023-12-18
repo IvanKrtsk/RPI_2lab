@@ -1,10 +1,10 @@
 
-import image1 from "../pictures/homepage/first.jpg";
-import image2 from "../pictures/homepage/second.jpg";
-import image3 from "../pictures/homepage/third.jpg";
-import image4 from "../pictures/homepage/fourth.jpg";
-import image5 from "../pictures/homepage/fifth.jpg";
-import image6 from "../pictures/homepage/sixth.jpg";
+import image1 from "../pictures/homepage/Santa_Barbara.jpg";
+import image2 from "../pictures/homepage/Sazdae.jpg";
+import image3 from "../pictures/homepage/Doctor_Who.jpg";
+import image4 from "../pictures/homepage/Simpsons.jpg";
+import image5 from "../pictures/homepage/Street_Sizam.jpg";
+import image6 from "../pictures/homepage/Track.jpg";
 
 
 export const images = [
