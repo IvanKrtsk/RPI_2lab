@@ -11,9 +11,9 @@ function Footer(){
                     </div>
                     <div className = "navigate">
                         <nav className="navigate1">
-                            <a className="nav_link">Pricing</a>
-                            <a className="nav_link">Blog</a>
-                            <a className="nav_link">Contact</a>
+                            <a className="nav_link">Home</a>
+                            <a className="nav_link">All series</a>
+                            <a className="nav_link">Best</a>
                         </nav>
                     </div>
                 </div>

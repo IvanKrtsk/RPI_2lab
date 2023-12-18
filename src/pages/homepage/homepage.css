@@ -31,8 +31,19 @@ h1,h2,h3,h4,h5,h6{
   width: 100%;
   height: 80vh;
   background-size: contain;
+  background-repeat: no-repeat;
   text-align: center;
 }
+
+/*.bg_container{*/
+/*  margin: 0 auto;*/
+/*  width: 30%;*/
+/*  height: 30%;*/
+/*  background-color: #282c34;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  justify-content: center;*/
+/*}*/
 
 .intro_title{
   color: white;
@@ -81,15 +92,13 @@ h1,h2,h3,h4,h5,h6{
   background-color: white;
 }
 
-.about_project{
-  color: black;
-  text-align: center;
-  font-size: 40px;
+.space_container2{
+  height: 5vh;
 }
 
 .space_container{
   width: 100%;
-  height: 10vh;
+  height: 15vh;
   vertical-align: center;
   font-size: 40px;
   font-weight: lighter;
