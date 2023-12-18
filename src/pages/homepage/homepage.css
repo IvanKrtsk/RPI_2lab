@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6{
 .intro_inner{
   width: 100%;
   height: 80vh;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
 }
