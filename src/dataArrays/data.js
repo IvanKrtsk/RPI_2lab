@@ -1,19 +1,18 @@
-
-import image1 from "../pictures/homepage/Santa_Barbara.jpg";
-import image2 from "../pictures/homepage/Sazdae.jpg";
-import image3 from "../pictures/homepage/Doctor_Who.jpg";
-import image4 from "../pictures/homepage/Simpsons.jpg";
-import image5 from "../pictures/homepage/Street_Sizam.jpg";
-import image6 from "../pictures/homepage/Track.jpg";
+import santa_barbara from "../pictures/homepage/Santa_Barbara.jpg";
+import sazdae from "../pictures/homepage/Sazdae.jpg";
+import doctor_who from "../pictures/homepage/Doctor_Who.jpg";
+import simpsons from "../pictures/homepage/Simpsons.jpg";
+import street_sizam from "../pictures/homepage/Street_Sizam.jpg";
+import track from "../pictures/homepage/Track.jpg";
 
 
 export const images = [
-    image1,
-    image2,
-    image3,
-    image4,
-    image5,
-    image6
+    santa_barbara,
+    sazdae,
+    doctor_who,
+    simpsons,
+    street_sizam,
+    track
 ];
 
 export const titles = [
