@@ -1,5 +1,8 @@
 import React from "react";
 import "./style.css"
+import {NavLink} from "react-router-dom";
+import {HashLink as Link} from 'react-router-hash-link';
+
 
 function Footer(){
     return(
@@ -11,9 +14,12 @@ function Footer(){
                     </div>
                     <div className = "navigate">
                         <nav className="navigate1">
-                            <a className="nav_link">Home</a>
-                            <a className="nav_link">All series</a>
-                            <a className="nav_link">Best</a>
+                            <Link to="/#head">
+                                <button className="nav_link">Home</button>
+                            </Link>
+                            <NavLink to="series">
+                                <button className="nav_link">All series</button>
+                            </NavLink>
                         </nav>
                     </div>
                 </div>

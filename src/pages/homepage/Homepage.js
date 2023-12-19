@@ -25,7 +25,7 @@ function Homepage(){
                     <button className="get_started_button">About</button>
                 </div>
             </div>
-            <div className="second_slide">
+            <div className="second_slide" id="aboutID">
                 <div className="space_container2"></div>
                 <div className="space_container">Developers</div>
                 <div className="second_icons_container">
@@ -53,6 +53,7 @@ function Homepage(){
                         </a>
                     </div>
                 </div>
+                <div className="lspaceContainer"></div>
             </div>
         </main>
     );
