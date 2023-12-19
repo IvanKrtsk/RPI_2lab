@@ -14,10 +14,10 @@ function Footer(){
                     </div>
                     <div className = "navigate">
                         <nav className="navigate1">
-                            <Link to="/#head">
+                            <Link to="/#head" smooth={true}>
                                 <button className="nav_link">Home</button>
                             </Link>
-                            <NavLink to="series">
+                            <NavLink to="/series">
                                 <button className="nav_link">All series</button>
                             </NavLink>
                         </nav>
