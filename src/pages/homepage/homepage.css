@@ -27,6 +27,37 @@ h1,h2,h3,h4,h5,h6{
   margin : 0;
 }
 
+.popup{
+  width: 20%;
+  height: 20%;
+  background-color: lightgrey;
+  color: black;
+  border-radius: 30px;
+  position: fixed;
+  bottom: 4%;
+  left: 4%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-all;
+  overflow: auto;
+  border-style: solid;
+  border-color: darkgray;
+  border-width: thin;
+}
+
+.popup_button{
+  background-color: black;
+  color: white;
+  width: 50%;
+  height: 15%;
+  border-radius: 20px;
+}
+
 /*////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /*Intro*/

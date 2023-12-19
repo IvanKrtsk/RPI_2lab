@@ -16,8 +16,38 @@ function Homepage(){
         setTime(times[index])
     }, [images, titles, times]);
 
+
+    const [showPopup, setShowPopup] = useState(false);
+
+    useEffect(() => {
+        const popupShown = sessionStorage.getItem('popupShown');
+
+        if (!popupShown) {
+            setShowPopup(true);
+        }
+    }, []);
+
+    const handleClose = () => {
+        setShowPopup(false);
+        sessionStorage.setItem('popupShown', 'true');
+    };
+
+    useEffect(() => {
+        if (!showPopup) {
+            sessionStorage.removeItem('popupShown');
+        }
+    }, [showPopup]);
+
     return(
         <main>
+            {showPopup && (
+                <div className="popup">
+                    <div>
+                        {<a>Это портал о самых длинных сериалах в истории кинематографа</a>}
+                    </div>
+                    <button className="popup_button" onClick={handleClose}>Close</button>
+                </div>
+            )}
             <div className="intro">
                 <div className="intro_inner" style={{backgroundImage: `url(${image})`, backgroundSize: 'cover'}}>
                     <div className="bg_container">
