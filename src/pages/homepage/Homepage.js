@@ -18,10 +18,10 @@ function Homepage(){
         <main>
             <div className="intro">
                 <div className="intro_inner" style={{backgroundImage: `url(${image})`, backgroundSize: 'cover'}}>
-                    {/*<div className="bg_container">*/}
+                    <div className="bg_container">
                         <h1 className="intro_title">{title}</h1>
                         <h2 className="intro_subtitle">{time}</h2>
-                    {/*</div>*/}
+                    </div>
                     <button className="get_started_button">About</button>
                 </div>
             </div>
