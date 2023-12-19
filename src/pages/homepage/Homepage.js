@@ -2,9 +2,12 @@ import React, {useState, useEffect} from "react";
 import "./homepage.css";
 import {images, titles, times} from "../../dataArrays/data";
 import {Button} from "react-bootstrap"
+import {useTranslation} from "react-i18next";
 //import "../../../node_modules/bootstrap-css-only/css/bootstrap.min.css";
 
+
 function Homepage(){
+    const { t,i18n } = useTranslation();
     const [image, setImage] = useState('');
     const [title, setTitle] = useState('')
     const [time, setTime] = useState('')
@@ -54,7 +57,7 @@ function Homepage(){
                         <h1 className="intro_title">{title}</h1>
                         <h2 className="intro_subtitle">{time}</h2>
                     </div>
-                    <Button className="get_started_button" as="input" type="button" value="About"/>
+                    <Button style={{outlineColor:'white'}} className="get_started_button" as="input" type="button" value="About"/>
                 </div>
             </div>
             <div className="second_slide" id="aboutID">
