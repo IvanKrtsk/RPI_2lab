@@ -11,19 +11,6 @@ import {useTranslation} from "react-i18next";
 function Searchpage() {
     const [search, setSearch] = useState("");
     const { t,i18n } = useTranslation();
-    const projects = [
-        { name: "Santa Barbara", russianName: "Санта Барбара", img: santa_barbara },
-        { name: "Sazdae", russianName: "Саздэ", img: sazdae },
-        { name: "Doctor Who", russianName: "Доктор Кто", img: doctor_who },
-        { name: "Simpsons", russianName: "Симпсоны", img: simpsons },
-        { name: "Street Sizam", russianName: "Улица Сизам", img: street_sizam },
-        { name: "Track", russianName: "Трек", img: track },
-    ];
-
-    const filteredProjects = projects.filter(project =>
-        project.name.toLowerCase().includes(search.toLowerCase()) ||
-        project.russianName.toLowerCase().includes(search.toLowerCase())
-    );
 
     return (
         <main className="section">
@@ -76,6 +63,19 @@ function Searchpage() {
 export default Searchpage;
 
 /*function Searchpage(){
+const projects = [
+        { name: "Santa Barbara", russianName: "Санта Барбара", img: santa_barbara },
+        { name: "Sazdae", russianName: "Саздэ", img: sazdae },
+        { name: "Doctor Who", russianName: "Доктор Кто", img: doctor_who },
+        { name: "Simpsons", russianName: "Симпсоны", img: simpsons },
+        { name: "Street Sizam", russianName: "Улица Сизам", img: street_sizam },
+        { name: "Track", russianName: "Трек", img: track },
+    ];
+
+    const filteredProjects = projects.filter(project =>
+        project.name.toLowerCase().includes(search.toLowerCase()) ||
+        project.russianName.toLowerCase().includes(search.toLowerCase())
+    );
     return(
         <main className="section">
             <div className="container">
