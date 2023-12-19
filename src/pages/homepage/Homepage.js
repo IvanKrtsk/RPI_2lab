@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from "react";
-import "./homepage.css"
-import {images, titles, times} from "../../dataArrays/data"
+import "./homepage.css";
+import {images, titles, times} from "../../dataArrays/data";
+import {Button} from "react-bootstrap"
+//import "../../../node_modules/bootstrap-css-only/css/bootstrap.min.css";
 
 function Homepage(){
     const [image, setImage] = useState('');
@@ -22,7 +24,7 @@ function Homepage(){
                         <h1 className="intro_title">{title}</h1>
                         <h2 className="intro_subtitle">{time}</h2>
                     </div>
-                    <button className="get_started_button">About</button>
+                    <Button className="get_started_button" as="input" type="button" value="About"/>
                 </div>
             </div>
             <div className="second_slide" id="aboutID">
@@ -43,13 +45,13 @@ function Homepage(){
                 <div className="second_buttons">
                     <div className="second_buttons_container">
                         <a href="https://github.com/IvanKrtsk" target="_blank" rel="noreferrer">
-                            <button className="see_more_button">View GitHub</button>
+                            <Button className="see_more_button">View GitHub</Button>
                         </a>
                         <a href="https://github.com/StepanDemidovets" target="_blank" rel="noreferrer">
-                            <button className="see_more_button">View GitHub</button>
+                            <Button className="see_more_button">View GitHub</Button>
                         </a>
                         <a href="https://github.com/SmnVadim" target="_blank" rel="noreferrer">
-                            <button className="see_more_button">View GitHub</button>
+                            <Button className="see_more_button">View GitHub</Button>
                         </a>
                     </div>
                 </div>

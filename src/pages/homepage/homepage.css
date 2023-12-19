@@ -138,7 +138,7 @@ h1,h2,h3,h4,h5,h6{
 
 /*Title*/
 .second_title{
-  margin-top: 52px;
+  margin-top: 3%;
   letter-spacing: 0.5px;
   font-size: 24px;
   color: #0e1a35;
@@ -154,7 +154,7 @@ h1,h2,h3,h4,h5,h6{
 /*Second buttons*/
 .second_buttons_container{
   margin: 0 auto;
-  margin-top: 47px;
+  margin-top: 3%;
   width: 100%;
   display: flex;
   justify-content: space-around;
