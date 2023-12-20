@@ -15,7 +15,7 @@ const App = () => {
             <Router>
                 <Header />
                 <Routes>
-                    <Route path="/" element={<Homepage />}/>
+                    <Route path="/RPI_2lab" element={<Homepage />}/>
                     <Route path="/series" element={<Searchpage />}/>
                     {seriesDatabase.map((figure) => (
                         <Route path={"/series" + figure.url} element={<Project info={figure} />}/>

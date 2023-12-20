@@ -16,9 +16,9 @@ function Footer(){
                     <div className="footer_left">{t("TLSeries")}</div>
                     <div className = "navigate">
                         <nav className="navigate1">
-                            <Link to="/#head" smooth="true">
+                            <NavLink to="/RPI_2lab">
                                 <button className="nav_link">{t("Home")}</button>
-                            </Link>
+                            </NavLink>
                             <NavLink to="/series">
                                 <button className="nav_link">{t("AllSeries")}</button>
                             </NavLink>

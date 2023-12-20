@@ -1,4 +1,5 @@
-import "./searchpage.css";
+import React, { useState } from "react";
+import {useTranslation} from "react-i18next";
 import santa_barbara from "./../../pictures/homepage/Santa_Barbara.jpg";
 import sazdae from "./../../pictures/homepage/Sazdae.jpg";
 import doctor_who from "./../../pictures/homepage/Doctor_Who.jpg";
@@ -6,8 +7,6 @@ import simpsons from "./../../pictures/homepage/Simpsons.jpg";
 import street_sizam from "./../../pictures/homepage/Street_Sizam.jpg";
 import track from "./../../pictures/homepage/Track.jpg";
 import SearchVidget from "../../components/searchvidget/SearchVidget";
-import React, { useState } from "react";
-import {useTranslation} from "react-i18next";
 import "./searchpage.css";
 function Searchpage() {
     const [search, setSearch] = useState("");

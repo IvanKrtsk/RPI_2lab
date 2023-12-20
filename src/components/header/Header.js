@@ -18,13 +18,13 @@ function Header(){
         <header className="header" id="head">
             <div className="header_inner">
                 <nav className="navigation">
-                    <NavLink to="/">
+                    <NavLink to="/RPI_2lab">
                         <button className="navigation_link">{t("Home")}</button>
                     </NavLink>
                     <NavLink to="series">
                         <button className="navigation_link">{t("Series")}</button>
                     </NavLink>
-                    <Link to="/#aboutID" smooth={true}>
+                    <Link to="/RPI_2lab/#aboutID" smooth={true}>
                         <button className="navigation_link" >{t("AboutUs")}</button>
                     </Link>
                     <Button variant="outline-light" onClick={changeLanguage}>{t("lang")}</Button>{' '}
