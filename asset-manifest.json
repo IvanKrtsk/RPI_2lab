@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RPI_2lab/static/css/main.61116f5c.css",
-    "main.js": "/RPI_2lab/static/js/main.89435cdf.js",
+    "main.js": "/RPI_2lab/static/js/main.0507797c.js",
     "static/media/Santa_Barbara1.jpg": "/RPI_2lab/static/media/Santa_Barbara1.a546d7aafbc5b58165ab.jpg",
     "static/media/Street_Sizam.jpg": "/RPI_2lab/static/media/Street_Sizam.cb13bd00cc4a2ddcce17.jpg",
     "static/media/Sazdae.jpg": "/RPI_2lab/static/media/Sazdae.eeb39ce67f38e79eea52.jpg",
@@ -13,10 +13,10 @@
     "static/media/getFetch.cjs": "/RPI_2lab/static/media/getFetch.40f37ddea2378391108f.cjs",
     "index.html": "/RPI_2lab/index.html",
     "main.61116f5c.css.map": "/RPI_2lab/static/css/main.61116f5c.css.map",
-    "main.89435cdf.js.map": "/RPI_2lab/static/js/main.89435cdf.js.map"
+    "main.0507797c.js.map": "/RPI_2lab/static/js/main.0507797c.js.map"
   },
   "entrypoints": [
     "static/css/main.61116f5c.css",
-    "static/js/main.89435cdf.js"
+    "static/js/main.0507797c.js"
   ]
 }
