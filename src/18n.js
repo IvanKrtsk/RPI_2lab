@@ -15,5 +15,5 @@ i18n.use(Backend).use(LanguageDetector).use(initReactI18next).init({
             escapeValue: false
         }
     });
-
+//
 export default i18n;
