@@ -2,8 +2,8 @@ import React, {useState} from "react";
 import "./style.css"
 import {NavLink} from "react-router-dom";
 import {HashLink as Link} from 'react-router-hash-link';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {useTranslation} from "react-i18next";
 
 function Header(){

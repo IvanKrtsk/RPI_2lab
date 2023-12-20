@@ -30,12 +30,12 @@ h1,h2,h3,h4,h5,h6{
 .popup{
   width: 20%;
   height: 20%;
-  background-color: lightgrey;
+  background-color: rgb(211, 211, 211, 0.8);
   color: black;
   border-radius: 30px;
   position: fixed;
   bottom: 4%;
-  left: 4%;
+  right: 4%;
   text-align: center;
   align-items: center;
   display: flex;
@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5,h6{
   background-color: black;
   color: white;
   width: 50%;
-  height: 15%;
+  height: 19%;
   border-radius: 20px;
 }
 
@@ -99,6 +99,7 @@ h1,h2,h3,h4,h5,h6{
   font-size: 18px;
   font-weight: bold;
   border-style: solid;
+  border-color: #282c34;
   border-radius: 40px;
   transition: background .2s linear, color .2s;
 }
@@ -106,6 +107,7 @@ h1,h2,h3,h4,h5,h6{
 .get_started_button:hover{
   background-color: #282c34;
   color: white;
+  border-color: #282c34;
 }
 
 .screen1_container{
