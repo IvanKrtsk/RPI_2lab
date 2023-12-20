@@ -25,7 +25,6 @@ function Header(){
                     <NavLink to="series">
                         <button className="navigation_link">{t("Series")}</button>
                     </NavLink>
-                    <button className="navigation_link">{t("TodayBest")}</button>
                     <Link to="/#aboutID" smooth={true}>
                         <button className="navigation_link" >{t("AboutUs")}</button>
                     </Link>

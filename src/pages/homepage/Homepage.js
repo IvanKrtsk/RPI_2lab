@@ -4,6 +4,12 @@ import {images, titles, times} from "../../dataArrays/data";
 import {Button} from "react-bootstrap"
 import {useTranslation} from "react-i18next";
 //import "../../../node_modules/bootstrap-css-only/css/bootstrap.min.css";
+import santa_barbara from "./../../pictures/homepage/Santa_Barbara.jpg";
+import sazdae from "./../../pictures/homepage/Sazdae.jpg";
+import doctor_who from "./../../pictures/homepage/Doctor_Who.jpg";
+import simpsons from "./../../pictures/homepage/Simpsons.jpg";
+import street_sizam from "./../../pictures/homepage/Street_Sizam.jpg";
+import track from "./../../pictures/homepage/Track.jpg";
 
 
 function Homepage(){
@@ -11,13 +17,25 @@ function Homepage(){
     const [image, setImage] = useState('');
     const [title, setTitle] = useState('')
     const [time, setTime] = useState('')
+    const [link, setLink] = useState('')
+
+    const series = [
+        { name: t("SantaBarbara"), img: santa_barbara, link: "./series/santa_barbara" },
+        { name: t("Sazae-san"), img: sazdae, link: "./series/sazdae" },
+        { name: t("DoctorWho"), img: doctor_who, link: "./series/doctor_who" },
+        { name: t("Simpsons"), img: simpsons, link: "./series/simpsons" },
+        { name: t("StreetSizam"), img: street_sizam, link: "./series/street_sizam" },
+        { name: t("Track"), img: track, link: "./series/track" }
+    ];
+
 
     useEffect(() => {
-        let index = Math.floor(Math.random() * images.length)
-        setImage(images[index])
-        setTitle(titles[index])
-        setTime(times[index])
-    }, [images, titles, times]);
+        let index = Math.floor(Math.random() * series.length)
+        setImage(series[index].img)
+        setTitle(series[index].name)
+        setTime(times[index]) // Если у вас есть массив времени, связанный с сериями
+        setLink(series[index].link)
+    }, [series, times]);
 
 
     const [showPopup, setShowPopup] = useState(false);
@@ -57,7 +75,7 @@ function Homepage(){
                         <h1 className="intro_title">{title}</h1>
                         <h2 className="intro_subtitle">{time}</h2>
                     </div>
-                    <Button style={{outlineColor:'white'}} className="get_started_button" as="input" type="button" value={t("About")}/>
+                    <Button style={{outlineColor:'white'}} className="get_started_button" as="input" type="button" value={t("About")} onClick={() => window.location.href = link}/>
                 </div>
             </div>
             <div className="second_slide" id="aboutID">
