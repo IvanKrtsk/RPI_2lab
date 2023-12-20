@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RPI_2lab/static/css/main.df796fad.css",
+    "main.js": "/RPI_2lab/static/js/main.77442003.js",
+    "static/media/Santa_Barbara1.jpg": "/RPI_2lab/static/media/Santa_Barbara1.a546d7aafbc5b58165ab.jpg",
+    "static/media/Street_Sizam.jpg": "/RPI_2lab/static/media/Street_Sizam.cb13bd00cc4a2ddcce17.jpg",
+    "static/media/Sazdae.jpg": "/RPI_2lab/static/media/Sazdae.eeb39ce67f38e79eea52.jpg",
+    "static/media/Santa_Barbara.jpg": "/RPI_2lab/static/media/Santa_Barbara.d2ff9925dea4774d9056.jpg",
+    "static/media/Simpsons.jpg": "/RPI_2lab/static/media/Simpsons.219c8676699fb2df07ed.jpg",
+    "static/media/Track.jpg": "/RPI_2lab/static/media/Track.ee49e2eaa63d84cdf243.jpg",
+    "static/media/Doctor_Who.jpg": "/RPI_2lab/static/media/Doctor_Who.e88ede740ccbfc3acfa3.jpg",
+    "static/media/job.svg": "/RPI_2lab/static/media/job.5f59c1c531258ec592f099373731d158.svg",
+    "static/media/getFetch.cjs": "/RPI_2lab/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "index.html": "/RPI_2lab/index.html",
+    "main.df796fad.css.map": "/RPI_2lab/static/css/main.df796fad.css.map",
+    "main.77442003.js.map": "/RPI_2lab/static/js/main.77442003.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df796fad.css",
+    "static/js/main.77442003.js"
+  ]
+}
