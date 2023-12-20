@@ -9,7 +9,6 @@ import {useTranslation} from "react-i18next";
 function Header(){
     const { t,i18n } = useTranslation();
     const [language, setLanguage] = useState('en');
-
     const changeLanguage = () => {
         const newLanguage = language === 'en' ? 'ru' : 'en';
         i18n.changeLanguage(newLanguage);
