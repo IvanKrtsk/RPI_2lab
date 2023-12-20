@@ -20,6 +20,7 @@ const Timeline = (props) => {
                         dateClassName="date"
                         iconStyle={style}
                         icon={icon}
+                        contentStyle={{backgroundColor: 'black'}}
                     >
                         <h3 className="vertical-timeline-element-title">
                             {element.title}
