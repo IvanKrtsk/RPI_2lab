@@ -9,7 +9,6 @@ import {useTranslation} from "react-i18next";
 function Header(){
     const { t,i18n } = useTranslation();
     const [language, setLanguage] = useState('en');
-
     const changeLanguage = () => {
         const newLanguage = language === 'en' ? 'ru' : 'en';
         i18n.changeLanguage(newLanguage);
@@ -25,7 +24,6 @@ function Header(){
                     <NavLink to="series">
                         <button className="navigation_link">{t("Series")}</button>
                     </NavLink>
-                    <button className="navigation_link">{t("TodayBest")}</button>
                     <Link to="/#aboutID" smooth={true}>
                         <button className="navigation_link" >{t("AboutUs")}</button>
                     </Link>
