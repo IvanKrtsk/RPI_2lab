@@ -1,0 +1,32 @@
+:root {
+    --blackpure: #000;
+    --black: #171718;
+    --black-border: #26292d;
+    --bg-color: #282c34;
+    --gray: rgb(128, 128, 128);
+    --white: rgb(255, 255, 255);
+
+    --page-bg: var(--bg-color);
+    --text-color: var(--black);
+    --accent: var(--gray);
+    --title-1: var(--accent);
+
+    --project-card-bg: var(--white);
+    --project-card-text: var(--black);
+    --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: -0.5px;
+    background-color: var(--page-bg);
+    color: var(--text-color);
+}
+
+.section {
+    background-color: #282c34;
+}

@@ -1,26 +1,30 @@
+import React from "react";
 import Searchpage from "./pages/searchpage/Searchpage";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import "./App.css"
 import Homepage from "./pages/homepage/Homepage";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import { useTranslation } from 'react-i18next';
-import React, { useState, createContext, useContext } from 'react';
+import seriesDatabase from "./dataArrays/seriesDatabase";
+import Project from "./components/project/Project";
 
 
-function App() {
-  return (
-    <div className="App">
-        <Router>
-            <Header />
-            <Routes>
-                <Route path="/" element={<Homepage />}></Route>
-                <Route path="/series" element={<Searchpage />}></Route>
-            </Routes>
-            <Footer />
-        </Router>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div className="App">
+            <Router>
+                <Header />
+                <Routes>
+                    <Route path="/" element={<Homepage />}/>
+                    <Route path="/series" element={<Searchpage />}/>
+                    {seriesDatabase.map((figure) => (
+                        <Route path={"/series" + figure.url} element={<Project info={figure} />}/>
+                    ))}
+                </Routes>
+                <Footer />
+            </Router>
+        </div>
+    );
+};
 
 export default App;
