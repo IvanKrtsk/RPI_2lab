@@ -3,6 +3,7 @@ import "./homepage.css";
 import {images, titles, times} from "../../dataArrays/data";
 import {Button} from "react-bootstrap"
 import {useTranslation} from "react-i18next";
+import icon from "../../pictures/homepage/121696120.png"
 //import "../../../node_modules/bootstrap-css-only/css/bootstrap.min.css";
 import santa_barbara from "./../../pictures/homepage/Santa_Barbara.jpg";
 import sazdae from "./../../pictures/homepage/Sazdae.jpg";
@@ -82,9 +83,9 @@ function Homepage(){
                 <div className="space_container2"></div>
                 <div className="space_container">{t("Devs")}</div>
                 <div className="second_icons_container">
-                    <img src="" width="80" height="80" alt="Icon1"/>
-                    <img src="" width="80" height="80" alt="Icon2"/>
-                    <img src="" width="80" height="80" alt="Icon3"/>
+                    <img src={icon} width="80" height="80" alt="Icon1"/>
+                    <img src={icon} width="80" height="80" alt="Icon2"/>
+                    <img src={icon} width="80" height="80" alt="Icon3"/>
                 </div>
                 <div className="second_title">
                     <div className="second_title_container">
