@@ -5,20 +5,26 @@ import Footer from "./components/footer/Footer";
 import "./App.css"
 import Homepage from "./pages/homepage/Homepage";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import seriesDatabase from "./dataArrays/seriesDatabase";
+import Project from "./components/project/Project";
 
-function App() {
-  return (
-    <div className="App">
-        <Router>
-            <Header />
-            <Routes>
-                <Route path="/" element={<Homepage />}></Route>
-                <Route path="/series" element={<Searchpage />}></Route>
-            </Routes>
-            <Footer />
-        </Router>
-    </div>
-  );
-}
+
+const App = () => {
+    return (
+        <div className="App">
+            <Router>
+                <Header />
+                <Routes>
+                    <Route path="/" element={<Homepage />}/>
+                    <Route path="/series" element={<Searchpage />}/>
+                    {seriesDatabase.map((figure) => (
+                        <Route path={"/series" + figure.url} element={<Project info={figure} />}/>
+                    ))}
+                </Routes>
+                <Footer />
+            </Router>
+        </div>
+    );
+};
 
 export default App;

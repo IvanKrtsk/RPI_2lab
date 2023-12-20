@@ -1,8 +1,6 @@
 
 import avatar1 from '../pictures/homepage/Santa_Barbara.jpg';
 import photo1_1 from '../pictures/series/Santa_Barbara1.jpg'
-//import photo1_2 from './imgs/ilonMask/gallery2.jpg'
-//import photo1_3 from './imgs/ilonMask/gallery3.jpg'
 
 import avatar2 from '../pictures/homepage/Sazdae.jpg'
 import photo2_1 from '../pictures/homepage/Sazdae.jpg'
@@ -83,12 +81,11 @@ const seriesDatabase = [
             photo1_1
         ],
         videos: [
-            "https://www.youtube.com/watch?v=F55rYIx2e3g",
-            "https://www.youtube.com/watch?v=gefJlWXnxp4"
+            "https://www.youtube.com/watch?v=HTjjNozVy5w"
         ],
         coordinates: {
-            longitude: 286.10,
-            latitude: 40.920
+            longitude: -119.698,
+            latitude: 34.4208
         },
         short_information: "Основатель, генеральный директор и главный " +
             "инженер компании SpaceX; инвестор, генеральный директор и " +
@@ -154,11 +151,11 @@ const seriesDatabase = [
             photo2_1
         ],
         videos: [
-            "https://www.youtube.com/watch?v=qDEh-eHzKkQ"
+            "https://www.youtube.com/watch?v=7d7vpTYIMro"
         ],
         coordinates: {
-            longitude: 237.50,
-            latitude: 37.75
+            longitude: 139.692,
+            latitude: 35.6895
         },
         short_information: "Американский предприниматель, изобретатель " +
             "и промышленный дизайнер, получивший широкое признание в " +
@@ -216,11 +213,11 @@ const seriesDatabase = [
             photo3_1
         ],
         videos: [
-            "https://youtu.be/MgeInXghohk?si=CEiV9a2cczAgmEA4"
+            "https://www.youtube.com/watch?v=orVPpNv_uek"
         ],
         coordinates: {
-            longitude: 254.907846983668735,
-            latitude: 39.7
+            longitude: -0.12574,
+            latitude: 51.5085
         },
         short_information: "Американский предприниматель и разработчик видеоигр." +
             " Один из основателей и генеральный директор компании Valve, занимающейся " +
@@ -276,11 +273,11 @@ const seriesDatabase = [
             photo4_1
         ],
         videos: [
-            "https://www.youtube.com/watch?v=-yP6kQywGbY"
+            "https://www.youtube.com/watch?v=dloX7qRs-Os"
         ],
         coordinates: {
-            longitude: 280.15,
-            latitude: 36.1
+            longitude: -118.244,
+            latitude: 34.0522
         },
         short_information: "Американский медиамагнат, интернет-предприниматель и филантроп. Известен как соучредитель компании Meta (ранее — Facebook, Inc.)" +
             " и является ее председателем, главным исполнительным директором и контролирующим акционером. "
@@ -339,11 +336,11 @@ const seriesDatabase = [
             photo5_1
         ],
         videos: [
-            "https://www.youtube.com/watch?v=bHvO8T5aVa0"
+            "https://www.youtube.com/watch?v=pvS28nqOCo0"
         ],
         coordinates: {
-            longitude: 254.9,
-            latitude: 39.7
+            longitude: -74.006,
+            latitude: 40.7143
         },
         short_information: "Американский предприниматель и общественный деятель, филантроп, один из создателей (совместно с Полом Алленом) и бывший крупнейший акционер компании Microsoft." +
             " До июня 2008 года являлся руководителем компании; после ухода с поста остался в должности её неисполнительного председателя совета директоров."
@@ -402,11 +399,11 @@ const seriesDatabase = [
             photo6_1
         ],
         videos: [
-            "https://www.youtube.com/watch?v=bHvO8T5aVa0"
+            "https://www.youtube.com/watch?v=Jz51mw35bgw"
         ],
         coordinates: {
-            longitude: 254.9,
-            latitude: 39.7
+            longitude: 37.6156,
+            latitude: 55.7522
         },
         short_information: "Американский предприниматель и общественный деятель, филантроп, один из создателей (совместно с Полом Алленом) и бывший крупнейший акционер компании Microsoft." +
             " До июня 2008 года являлся руководителем компании; после ухода с поста остался в должности её неисполнительного председателя совета директоров."

@@ -13,7 +13,7 @@ const Gallery = (props) => {
     }
     return (
         <>
-            <h1>{t('gallery')}</h1>
+            <h1>{t("Gallery")}</h1>
             <div className={model ? 'model open' : 'model'}>
                 <img src={tempImgSrc} alt=""/>
                 <CloseIcon onClick={() => setModel(false)}/>
