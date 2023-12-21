@@ -7,18 +7,19 @@ import simpsons from "./../../pictures/homepage/Simpsons.jpg";
 import street_sizam from "./../../pictures/homepage/Street_Sizam.jpg";
 import track from "./../../pictures/homepage/Track.jpg";
 import SearchVidget from "../../components/searchvidget/SearchVidget";
+import {Link} from "react-router-dom"
 import "./searchpage.css";
 function Searchpage() {
     const [search, setSearch] = useState("");
     const { t, i18n } = useTranslation();
 
     const series = [
-        { name: t("SantaBarbara"), img: santa_barbara, link: "./series/santa_barbara" },
-        { name: t("Sazae-san"), img: sazdae, link: "./series/sazdae" },
-        { name: t("DoctorWho"), img: doctor_who, link: "./series/doctor_who" },
-        { name: t("Simpsons"), img: simpsons, link: "./series/simpsons" },
-        { name: t("StreetSizam"), img: street_sizam, link: "./series/street_sizam" },
-        { name: t("Track"), img: track, link: "./series/track" }
+        { name: t("SantaBarbara"), img: santa_barbara, link: "./santa_barbara" },
+        { name: t("Sazae-san"), img: sazdae, link: "./sazdae" },
+        { name: t("DoctorWho"), img: doctor_who, link: "./doctor_who" },
+        { name: t("Simpsons"), img: simpsons, link: "./simpsons" },
+        { name: t("StreetSizam"), img: street_sizam, link: "./street_sizam" },
+        { name: t("Track"), img: track, link: "./track" }
     ];
 
     const filteredSeries = series.filter(serie => serie.name.toLowerCase().includes(search.toLowerCase()));
@@ -31,10 +32,10 @@ function Searchpage() {
                 <ul className="projects">
                     {filteredSeries.map((serie, index) => (
                         <li className="project" key={index}>
-                            <a href={serie.link}>
+                            <Link to={serie.link}>
                                 <img src={serie.img} alt="Project img" className="project__img"/>
                                 <h3 className="project__title">{serie.name}</h3>
-                            </a>
+                            </Link>
                         </li>
                     ))}
                 </ul>
